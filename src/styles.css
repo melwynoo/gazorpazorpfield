@@ -1,0 +1,60 @@
+/* Tag Selector */
+body {
+  color: #444;
+  font-family: sans-serif;
+}
+
+div {
+  text-transform: uppercase;
+}
+
+strong {
+  font-weight: bolder;
+  font-size: 1.1em;
+  border: 0px 5px 2px 7px dotted;
+}
+
+/* Id Selector */
+#toll {
+  color: red;
+}
+
+.invisible {
+  display: none;
+}
+
+/* Class-Selector */
+.klasse {
+  color: blue;
+}
+
+/* Tag-Class Selector */
+div#toll {
+  text-transform: lowercase;
+}
+
+span.klasse {
+  color: #88f;
+}
+
+/* Multi-Selector */
+span,
+div {
+  text-decoration: underline;
+}
+
+/* Ancestor Selector */
+div h1 {
+  color: orange;
+  text-decoration-line: none;
+}
+
+/* Child Selector */
+div > h1 {
+  color: #f5f;
+}
+
+/* -Neighbour Selector */
+img + u {
+  color: #a1da2f;
+}

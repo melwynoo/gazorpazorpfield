@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Heftiger Scheiß</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="src/index.js"></script>
+
+    <h1>Wichtiger Hinweis!</h1>
+
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure magni
+    delectus veniam nobis assumenda vero eius officia aperiam quibusdam sequi
+    asperiores nostrum, illum sapiente dolor blanditiis veritatis repellat,
+    architecto fugit.
+
+    <div>
+      <label for"bar">Gib einen Namen an:</label>
+      <input id="bar" type="text" placeholder="Platzhalter" 
+      onchange="barChanged()" />
+    </dic>
+
+    <div id="app">
+      <strong>Suchtext</strong>
+      <h1>Ich bin Gazorpazorpfield</h1>
+      <h3>Bitch!</h3>
+      <em>Kursiv?!?</em>
+
+      <img
+        src="https://vignette.wikia.nocookie.net/rickandmorty/images/f/fb/Gazorpazorpfield_Bitch.png/revision/latest?cb=20161204091409"
+        width="200"
+        title="Ich bin Gazorpazorpfield"
+        alt="Gazorpazorpfield"
+      />
+
+      <u> test</u>
+    </div>
+
+    <ul>
+      <li>1</li>
+      <li>Zwo</li>
+      <li>Drei</li>
+      <li>Vorletzter</li>
+      <li>DAS LETZTE</li>
+    </ul>
+
+    <div id="toll">Tolles Div</div>
+
+    <div class="klasse">Test</div>
+    <div class="klasse">Test</div>
+    <span class="klasse">Test</span>
+
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque numquam
+    ipsum deleniti magni soluta, fugit deserunt ratione, sequi mollitia, dicta
+    corrupti! Laudantium architecto facere vero maxime eveniet at corporis
+    fugiat!
+
+    <script>
+      var _foo = "FOOOO!";
+
+      function setFoo(foo) {
+        _foo = foo;
+        $("#toll").html(_foo);
+      }
+
+      function barChanged() {
+        var wert = $("#bar").val();
+        setFoo(wert);
+      }
+
+    </script>
+
+  </body>
+</html>
